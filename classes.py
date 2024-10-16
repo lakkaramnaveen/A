@@ -13,6 +13,3 @@ class Car:
 volvo: Car = Car('Volvo', 230)
 volvo.get_info(7)
 volvo.drive()
-
-bmw: Car = Car('BMW', 120)
-bmw.drive()
