@@ -11,4 +11,5 @@ class Car:
 
 volvo: Car = Car('Volvo', 230)
 print(volvo.brand, volvo.horsepower)
+volvo.get_info()
 volvo.drive()
