@@ -12,3 +12,7 @@ class Car:
 volvo: Car = Car('Volvo', 230)
 volvo.get_info()
 volvo.drive()
+
+bmw: Car = Car('BMW', 120)
+bmw.get_info()
+bmw.drive()
