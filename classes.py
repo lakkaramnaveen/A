@@ -6,13 +6,13 @@ class Car:
     def drive(self) -> None:
         print(f'{self.brand} is driving!!')
 
-    def get_info(self) -> None:
+    def get_info(self, size: int) -> None:
+        print(size)
         print(f'{self.brand} with {self.horsepower} horsepower !!')
 
 volvo: Car = Car('Volvo', 230)
-volvo.get_info()
+volvo.get_info(7)
 volvo.drive()
 
 bmw: Car = Car('BMW', 120)
-bmw.get_info()
 bmw.drive()
