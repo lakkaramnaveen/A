@@ -10,6 +10,5 @@ class Car:
         print(f'{self.brand} with {self.horsepower} horsepower !!')
 
 volvo: Car = Car('Volvo', 230)
-print(volvo.brand, volvo.horsepower)
 volvo.get_info()
 volvo.drive()
