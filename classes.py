@@ -17,5 +17,5 @@ class Car:
 volvo: Car = Car('Volvo', 230)
 bmw: Car = Car('BMW', 230)
 
-print(volvo)
+print(volvo + bmw)
 print(volvo.__add__(bmw))
