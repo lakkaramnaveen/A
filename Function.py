@@ -1,4 +1,7 @@
 from datetime import datetime
 
-print('This is the current time: ')
-print(datetime.now())
+def show_date() -> None:
+    print('This is the current date and time: ')
+    print(datetime.now())
+
+show_date()
