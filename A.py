@@ -6,4 +6,4 @@ isActive: bool = False
 names: list = ['Bob', 'Anna', 'Luigi']
 coordinates: tuple = (1.5, 2.5)
 unique: set = {1, 4, 2, 9}
-data: dict = {'name':'Bob', 'age':20}
+data: dict = {'name':'Bob', 'age':12}
