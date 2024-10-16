@@ -1,7 +1,4 @@
-from datetime import datetime
+def add(a: float, b: float) -> float:
+    return a+b
 
-def greet(name: str) -> None:
-    print(f'Hello, {name}!')
-
-greet('Nani')
-greet('Chinni')
+print(add(2,3))
