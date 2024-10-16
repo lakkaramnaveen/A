@@ -1,0 +1,4 @@
+from typing import Final
+
+VERSION: Final[str] = '1.0.2'
+VERSION: Final[float] = '1.1'
