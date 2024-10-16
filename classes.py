@@ -7,5 +7,12 @@ class Car:
     def __str__(self) -> str:
         return f'{self.brand}, {self.horsepower}hp'
 
+    def __add__(self, other) -> str:
+        return f'{self.brand} & {other.brand}'
+
+
 volvo: Car = Car('Volvo', 230)
+bmw: Car = Car('BMW', 230)
+
 print(volvo)
+print(volvo.__add__(bmw))
