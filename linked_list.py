@@ -26,20 +26,26 @@ class LinkedList:
         print(ltstr)
 
     def insert_at_end(self, data):
-        itr = self.head
         if self.head is None:
-            self.data = data
-            self.next = None
-        while itr:
+            self.head = Node(data, None)
+            return
+        itr = self.head
+        while itr.next:
             itr = itr.next
-            if itr == None:
-                itr.next = node
-                node.next = None
+        itr.next = Node(data, None)
 
-
+    def insert_values(self, data_list):
+        self.head = None
+        for data in data_list:
+            self.insert_at_end(data)
 
 if __name__ == '__main__':
     ll = LinkedList()
     ll.insert_at_beginning(12)
     ll.insert_at_beginning(23)
+    ll.insert_at_end(21)
+
+    ll.print()
+
+    ll.insert_values([1,454,799])
     ll.print()
