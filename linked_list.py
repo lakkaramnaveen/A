@@ -25,6 +25,18 @@ class LinkedList:
 
         print(ltstr)
 
+    def insert_at_end(self, data):
+        itr = self.head
+        if self.head is None:
+            self.data = data
+            self.next = None
+        while itr:
+            itr = itr.next
+            if itr == None:
+                itr.next = node
+                node.next = None
+
+
 
 if __name__ == '__main__':
     ll = LinkedList()
