@@ -1,10 +1,12 @@
-expenses = [{"January":2200}, {"February":2500},{"March":2600},{"April":2130},{"May":2190}]
+exp = [2200,2350,2600,2130,2190]
 
-expenses.append({"June":1980})
-# for i in range(0,3):
-
-print(expenses)
-
+print(exp[1] - exp[0])
+print(exp[0]+exp[1]+exp[2])
+print("Did I spent 2000$ in any month? ", 2000 in exp)
+exp.append(1980)
+print(exp)
+exp[3] = exp[3] - 200
+print(exp)
 
 # 2:
 
