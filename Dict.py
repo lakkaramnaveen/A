@@ -35,6 +35,4 @@ if __name__ == '__main__':
     t['march 8'] = 120
     t['march 9'] = 120
     t['march 17'] = 459
-    print(t['march 6'])
-    # del t['march 6']
     print(t.arr)
