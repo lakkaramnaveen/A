@@ -6,3 +6,8 @@ for line in han:
         continue
     else:
         print(wds[1])
+
+garage = dict()
+
+garage['car'] = 'AUDI'
+print(dir(garage))
