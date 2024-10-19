@@ -1,0 +1,160 @@
+﻿To help you prepare for your interview, please carefully review the information, tips, and tricks on how to interview for technical roles at Amazon. FYI, the role will no longer reflect as ‘in process’ on your Amazon. jobs portal since you have been moved forward to the interview stage on an internal opening.
+
+Optional - View the SDE interview prep recording here: https://drive.google.com/file/d/1m17FtmlGDR4e34aZe5IDPu-rj0Md74OP/view?usp=drive_link
+
+About our interview process and what to expect
+1. Virtual Onsite Loop (Three 60-min interviews = 180 min in total): You will meet three Amazon engineers who are experts in their technical domain and will dive deep into your technical as well as behavioral skills and competencies relevant for this role as well as AWS and Amazon on a broader level.
+
+
+5, 25 - 30, 15, 5 min
+Per interview round: Introduction (5 min); technical Q&A and problem-solving questions with Live code link (25-30 min); most of the interview would be very heavy on live coding; behavior-based questions using Amazon Leadership Principles (15 min); ask questions (5 min).
+
+Pro Tip: Pay extra attention to the Amazon Leadership Principles, STAR answer format, and Tips for great answers. This information can be found in the in-person interview section - General Steps. The tips apply to various steps in the process. Also, consider LPs most relevant to the role, such as Customer Obsession, Earns Trust, Bias for Action, and Ownership.
+
+This is also a helpful resource: https://www.amazon.jobs/en/software-development-interview-prep#/. You can disregard the System Design step.
+
+Coding related tips –
+
+Data Structures
+Most of the work we do involves storing and providing efficient access to data. This necessitates a very strong background in standard data structures. You should know what each of these data structures is and how they are implemented, what their runtimes are for common operations, and under what circumstances it would be beneficial to use a particular one. The list below is in no particular order:
+
+
+Learn internal workings, time complexity
+* Array 1st
+* Linked List
+* Tree (Binary Tree, Binary Search Tree, Red-Black Tree, etc.)
+* Heap 2nd
+* Hash Table
+* Stack
+* Queue
+* Tree
+* Graph (both directed and undirected)
+* Algorithms
+
+It is also important to know efficient ways to manipulate data. One great way of demonstrating this is to brush up on some common algorithms. We will expect that you can apply and discuss the tradeoffs between commonly used algorithms.
+
+
+BIG O:
+Consider reviewing common algorithms such as traversals, divide and conquer, and breadth-first search vs. depth-first search and understand the tradeoffs for each.
+* Sorting: Bubble Sort; Merge Sort; Quick Sort; Radix/Bucket Sort
+* Traversals (On multiple data structures): Depth First Search; Breadth-First Search
+
+
+Before Coding:
+1. Ask clarifying questions before jumping in to code the problem.
+2. Voice your assumptions – this will help the interviewer steer you back on track if you’re making fundamentally wrong assumptions before you start coding
+3. Ask for examples and use them to validate your ideas
+
+During Coding:
+1. Explain your decision making
+2. Describe your code
+3. Write syntactically correct real code NEVER pseudocode. Try to be consistent in your naming conventions and it will make testing and optimizing easier later.
+4. If you forget a specific API or specific link into an array or something like that, just ask the interviewer who should help you
+
+After Coding:
+1. Test your code
+2. Talk through optimizing the solution if it can be further optimized if there is more time
+
+Most important here is that you should focus on having a working and fully coded solution on the board to the problem by the end of each interview. If it’s easier for you to start with an inefficient brute force approach and then optimize from there at the end, it’s a perfectly valid approach. Just state that upfront with your interviewer. A brute-force solution is better than an incomplete solution.
+
+Prep materials –
+The videos below may help in your preparation:
+1. Coding Sample: https://youtu.be/mjZpZ_wcYFg
+2. Leadership Principles: https://youtu.be/CpcxVE5JIX4
+
+
+These technical concepts may be relevant to the questions asked during your interviews:
+Look up:
+* “Amazon parking lot example design” and be familiar with those concepts
+* “Solve boggle board algorithm”
+* “Binary search questions”
+Technical Reference Questions:
+* https://www.careercup.com/page?pid=trees-and-graphs-interview-questions
+* http://codercareer.blogspot.com/p/binary-tree-interview-questions.html
+* https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree
+* https://www.hackerrank.com/challenges/tree-level-order-traversal
+* https://www.hackerrank.com/challenges/balanced-brackets
+* https://www.hackerrank.com/challenges/contacts
+* https://www.hackerrank.com/challenges/find-the-running-median
+* https://www.hackerrank.com/challenges/swap-nodes-algo
+
+
+Note: We recognize the growing use of Generative AI (GenAI) tools in various aspects of professional life. To ensure a fair and transparent recruitment process, please do not use GenAI tools during your interview unless explicitly permitted. We aim to evaluate your authentic skills, experiences, and potential. Failure to adhere to these guidelines may result in disqualification from the recruitment process. If you have any questions about the guidelines, please don't hesitate to contact us. We look forward to getting to know the real you throughout this process.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+QUESTIONS from people:__________________________________________________
+
+
+Tell me about a time when you had to leave a task unfinished. 
+Tell me about a time when you had to work on a project with unclear responsibilities.
+
+
+Some on ownership and customer obsession..!
+
+
+
+
+
+
+__________________________
+
+
+Yes. Those were based on my previous work experiences and academic projects. Ex - have you faced any major challenges in your previous work at xxx and how did you overcome them, tell me about a time when you had to work on a new tech that you didn't know. How did you learn it. Yes those were at the end and for tech there were 2 for the manager he asked me 4-5
+
+
+__________________________
+
+
+* Tell me about a time when you were faced with a problem that had a number of possible solutions. What was the problem and how did you decide what to do? What was the outcome?
+* When did you take a risk, make a mistake, or fail? How did you respond? How did you grow from it?
+* Describe a time you took the lead on a project.
+* What did you do when you needed to motivate a group or promote collaboration on a project?
+* How have you used data to develop a strategy?
+
+
+
+
+* Practice using the STAR method. Frame your examples in relation to the Leadership Principles.
+* Ensure each answer has a beginning, middle, and end. Describe the situation or problem, the actions you took, and the outcome.
+* Prepare short descriptions of a handful of situations. Be ready to answer follow-up questions in greater detail. Select examples that highlight your unique skills.
+* Have examples that showcase your experience and how you’ve taken risks, succeeded, failed, and grown.
+* Specifics are key. Avoid generalizations. Give a detailed account of one situation for each question you answer. Use data or metrics to support your example.
+* Be forthcoming. Don't embellish or omit parts of the story.
+WHY AMAZON:
+
+
+In 2018, one day I ordered a book through Amazon “Girl in Room 105” which was released and the first 500 orders would get a signed copy from him, I was a voracious reader and I read hundreds of books and wanted the book so bad. I set up an alarm and waited for the day to order and fortunately, I ordered it on time.
+
+
+I received the book early in the morning, I woke up with this delivery driver who was knocking on the front door as I wanted to sign it, I said thank you bhai you made my day. He was happy I gave him a cash tip, I was so excited he even took a video with me, in the video “I mentioned how happy I was getting delivery so fast it was my first ever best experience with Amazon”. The delivery agent was so happy about the tip and service he provided, I want to see that smile by helping people achieve their dreams. He was proud of it, and that is when I knew this was the place I needed to work and learn, I did a lot of research on how to crack coding interviews, prepared for it, and. I tried applying but got rejected, due to pressure from relatives, and friends my father asked me to try other companies, I respected my father's decision and I joined Capgemini, and even now I have sent 20+ applications to Amazon.
+
+
+I was fortunate to get this wonderful opportunity to make my dream come true. I want to see what value I can add to Amazon because I started a food delivery app and failed in 2019, I have managed multiple teams and shown great results, within I joined Capgemini I made migrations for clients for a smooth transition to the cloud, I cracked the first interview with Shambhu who onboarded me into this project as I was so confident, he found I am the right fit for this role. If given a chance at Amazon, I would love to give back by putting those smiles on a lot of people out there. I believe I can learn and go explore possibilities that someone might overlooked, I am an explorer, I travel to new places every year, play guitar, interact with people, and learn languages, cultures, and food.
+I even now building a startup to develop digital products to help people. I have a team of 4 people who are passionate about it. I don’t want to be a flea in a jar, I want to explore what’s on my horizon, what’s out there too.
+
+The cultural values that Amazon has are phenomenal, I have a 5-year plan for the US, what I should be doing at Amazon, how to learn and grow, and what to do at each stage. I have goals to achieve, and milestones to pass.
+
+
+___________________________________________________
