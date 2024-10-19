@@ -1,18 +1,11 @@
 han = open('A.txt')
-
-# print(dir(han))
-
 for line in han:
-    print(line)
-    line = line.strip()
+    line = line.rstrip()
     wds = line.split()
-    # print(wds)
-    try:
-        if wds[0] == 'help':
-            continue
-        else:
-            print(wds[1])
-    except:
-        print('empty')
-    finally:
-        print('nani')
+    if line == '':
+        continue
+
+    if len(wds) < 1 or wds[0] == 'help':
+        continue
+    else:
+        print(wds[1])
