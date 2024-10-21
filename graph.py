@@ -27,18 +27,25 @@ class Graph:
                     paths.append(p)
 
         return paths
+
+    def get_shortest_path(self, start, end, path=[]):
+
+
+
+
 if __name__ == '__main__':
     # Tuple
     routes = [
         ("Mumbai","Paris"),
         ("Newyork","France"),
         ("Newyork","California"),
+        ("France","California"),
         ("Hyderabad","Dallas"),
         ("Banglore","Seattle"),
     ]
     route_graph = Graph(routes)
 
-    start="Seattle"
-    end="Mumbai"
+    start="Newyork"
+    end="California"
 
     print(f"Paths between {start} and {end}: ", route_graph.get_paths(start, end))
