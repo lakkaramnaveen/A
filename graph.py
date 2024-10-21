@@ -9,6 +9,9 @@ class Graph:
                 self.graph_dict[start] = [end]
         print("Graph dict: ", self.graph_dict)
 
+    # def get_paths(self, start, end):
+
+
 if __name__ == '__main__':
     # Tuple
     routes = [
@@ -20,7 +23,7 @@ if __name__ == '__main__':
     ]
 
     route_graph = Graph(routes)
-    d = {
-        "Mumbai": ["Paris", "Dubai"],
-        "Paris": ["Dubai", "New York"]
-    }
+    # d = {
+    #     "Mumbai": ["Paris", "Dubai"],
+    #     "Paris": ["Dubai", "New York"]
+    # }
