@@ -3,7 +3,11 @@ class Graph:
         self.edges = edges
         self.graph_dict = {}
         for start, end in self.edges:
-
+            if start in self.graph_dict:
+                self.graph_dict[start].append(end)
+            else:
+                self.graph_dict[start] = [end]
+        print("Graph dict: ", self.graph_dict)
 
 if __name__ == '__main__':
     # Tuple
