@@ -9,7 +9,14 @@ class Graph:
                 self.graph_dict[start] = [end]
         print("Graph dict: ", self.graph_dict)
 
-    # def get_paths(self, start, end):
+    def get_paths(self, start, end, path=[]):
+        path = path + [start]
+
+        if start == end:
+            return [path]
+
+        if start not in self.graph_dict:
+            return []
 
 
 if __name__ == '__main__':
@@ -21,9 +28,9 @@ if __name__ == '__main__':
         ("Hyderabad","Dallas"),
         ("Banglore","Seattle"),
     ]
-
     route_graph = Graph(routes)
-    # d = {
-    #     "Mumbai": ["Paris", "Dubai"],
-    #     "Paris": ["Dubai", "New York"]
-    # }
+
+    start="Seattle"
+    end="Mumbai"
+
+    print(f"Paths between {start} and {end}: ", route_graph.get_paths(start, end))
